@@ -7,14 +7,11 @@
     <h4>test4</h4>
     <h5>test5</h5>
     <h6>test6</h6>
-    <h7>test7</h7>
-    <!-- html hanya punya body 6 -->
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro beatae
-      natus sint illo doloribus! Explicabo quas molestias dolor ullam est
-      possimus minus, magni molestiae dicta ad, excepturi distinctio, iusto
-      recusandae.
-    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, minus iure temporibus quia repudiandae, recusandae ullam et velit laudantium ut expedita rerum magnam ipsum sequi quasi doloremque fugiat ducimus? Architecto.</p>
+
+    <pre>hello</pre>
+
     <a href="https://www.google.com/" target="_blank">google</a>
     <span>test</span>
     <pre></pre>
@@ -52,70 +49,39 @@
       </tbody>
     </table>
 
-    <!-- tampilkan gambar dari link dan lokal -->
-    <img src="https://picsum.photos/200/300" />
-    <img src="dummy.png" />
+    <img width="500px" src="https://images.unsplash.com/photo-1682686580224-cd46ea1a6950?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="image1" />
+    <img width="500px" src="neom-9Jgo0Ix_TRw-unsplash.jpg" alt="image2" />
+
     <br />
 
-    <!-- Personal Details -->
-
-    <!-- Select -->
-    <label for="salutation" type="radio">Salutation:</label>
-    <select name="salutation" id="salutation">
-      <option value="agya">agya</option>
-      <option value="calya">calya</option>
-      <option value="sigra">sigra</option>
-      <option value="alya">alya</option>
-    </select>
-    <br />
-    <br />
-
-    <!-- Input first name -->
-    <label for="first-name">First Name:</label>
-    <input type="text" id="first-name" />
-    <br />
-    <br />
-
-    <!-- Input last name -->
-    <label for="last-name">Last Name:</label>
-    <input type="text" id="last-name" />
-    <br />
-    <br />
-
-    <!-- Radio gender -->
-    <label>Gender:</label>
-    <input type="radio" id="Male" value="male" />
-    <label for="Male">Male</label>
-    <br />
-    <br />
-
-    <input type="radio" id="Female" value="female" />
-    <label for="Female">Female</label>
-    <br />
-    <br />
-
-    <!-- Input Email -->
-    <label for="email">Email:</label>
-    <input type="email" id="email" />
-    <br />
-    <br />
-
-    <!-- Input Date Birth -->
-    <label for="dateOfBirth">Date Of Birth:</label>
-    <input type="date" id="dateOfBirth" />
-    <br />
-    <br />
-
-    <!-- Input Text Area -->
-    <label for="addres">Addres:</label>
-    <textarea type="text" id="addres"></textarea>
-    <br />
-    <br />
-
-    <!-- Submit -->
-    <label for="submit"></label>
-    <input type="submit" id="submit" />
-    <br />
-    <br />
+    <form>
+      <label for="mobil">Salutation</label><br />
+      <select id="mobil">
+        <option value="none">--None--</option>
+        <option value="agya">agya</option>
+        <option value="sigra">sigra</option>
+        <option value="ayla">ayla</option>
+        <option value="cayla">cayla</option></select
+      ><br />
+      <label for="first-name">First Name: </label>
+      <input id="first-name" type="text" /><br />
+      <label for="">Last Name: </label>
+      <input id="last-name" type="text" /><br />
+      <label for="">Gender :</label>
+      <label for="gender"
+        >Male
+        <input type="radio" />
+      </label>
+      <label for="gender"
+        >Female
+        <input type="radio" />
+      </label>
+      <br />
+      <label for="select-date">Date of Birth :</label>
+      <input id="select-date" type="date" /><br />
+      <label for="address">Address :</label><br />
+      <textarea name="address" id="address" cols="30" rows="5"></textarea><br />
+      <button>submit</button>
+    </form>
   </body>
 </html>
